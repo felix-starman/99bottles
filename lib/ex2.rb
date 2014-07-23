@@ -7,7 +7,8 @@ class Bottles
       "Go to the store and buy some more, 99 bottles of beer on the wall.\n"
     else
       "#{bottles(number)} of beer on the wall, #{bottles(number)} of beer.\n" +
-      "Take #{bottle(number)} down and pass it around, #{bottles(number - 1)} of beer on the wall.\n"
+      "Take #{bottle(number)} down and pass it around, " +
+      "#{bottles(number - 1)} of beer on the wall.\n"
     end
   end
 
