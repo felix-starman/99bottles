@@ -1,7 +1,7 @@
 class Bottles
 
   def verse bottles_on_the_wall
-    "#{look_at_wall(bottles_on_the_wall)}#{take_bottle(bottles_on_the_wall)}" +
+    "#{look_at_wall(bottles_on_the_wall)}#{take_bottle(bottles_on_the_wall)}"+
     "#{sum_up(bottles_on_the_wall - 1)}"
   end
 
@@ -22,7 +22,7 @@ class Bottles
   end
 
   def look_at_wall(bottles)
-    ("#{anglicized_bottle_count(bottles)} of beer on the wall, " +
+    ("#{anglicized_bottle_count(bottles)} of beer on the wall, "+
     "#{anglicized_bottle_count(bottles)} of beer.\n").capitalize
   end
 
