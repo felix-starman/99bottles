@@ -31,7 +31,7 @@ class Bottles
     0 => Ultimate,
     1 => Penultimate,
     2 => Antepenultimate
-  }.tap { |h| h.default_proc = proc { |hash, key| hash[key] = Default } }
+  }.tap { |h| h.default = Default }
 
   attr_reader :song_length
   def initialize
